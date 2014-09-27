@@ -1,0 +1,19 @@
+*** stack smashing detected ***: /ssp_test/smash terminated
+
+Program received signal SIGABRT, Aborted.
+0xb7fdd424 in __kernel_vsyscall ()
+(gdb) backtrace full
+#0  0xb7fdd424 in __kernel_vsyscall ()
+No symbol table info available.
+#1  0xb7e3e577 in raise () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#2  0xb7e419a3 in abort () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#3  0xb7e796e3 in ?? () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#4  0xb7f0c13b in __fortify_fail () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#5  0xb7f0c0ca in __stack_chk_fail () from /lib/i386-linux-gnu/libc.so.6
+No symbol table info available.
+#6  0x0804859f in main (argc=1, argv=0xbffff134) at ./smash.c:41
+        buf = "smas"
