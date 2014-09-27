@@ -29,16 +29,16 @@
   <body>
 
     <div class="container">
-    <header class="header" role="header">
-<!--        <ul class="nav nav-pills pull-right">
+<!--    <header class="header" role="header">
+        <ul class="nav nav-pills pull-right">
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <h3 class="text-muted">Project name</h3>-->
-    </header>
+        <h3 class="text-muted">Project name</h3>
+    </header>-->
 
-      <div class="jumbotron">
+      <header class="jumbotron" role="header">
         <h1>Andrew Reynolds</h1>
         <p class="lead">
         Additional work can be found at 
@@ -46,35 +46,103 @@
         <a href="https://github.com/opentechinstitute">https://github.com/opentechinstitute</a> (live code).
         Long form work samples such as progress or testing reports are available by request.
         </p>
-      </div>
+      </header>
 
+    <main role="main">
       <div class="row marketing">
         <div class="col-lg-6">
-          <h4>Subheading</h4>
+                            <img src="images/cites-banner.png" alt="Project header: CITES website" class="project">
+                <div class="project">
+                <h2>CITES Website, University of Illinois</h2>
+                <p>Departmental website for Campus Information Technology and Educational Services</p>
+                <p><a href="https://cites.illinois.edu">https://cites.illinois.edu</a></p>
+                <p class="roles">Webmaster, technical lead, developer, content provider, project team member</p>
+                <p><strong>Contributions:</strong></p>
+                <ul>
+                    <li>Managed static content publishing infrastructure</li>
+                    <li>Implemented site designs in standards-compliant HTML, CSS, Perl, PHP, and Javascript</li>
+                    <li>Wrote module to migrate static site to Drupal 7</li>
+                    <li>Assisted in usability testing and information architecture improvements</li>
+                    <li>Helped set design and IA goals, and implemented requirements</li>
+                    <li>Ensured compliance with code and accessibility standards</li>
+                    <li>Coordinated with subject matter experts and wrote site content</li>
+                </ul>
+                </div>
+
+                <img src="images/commotion_logo_100x100.png" alt="Project header: Commotion Wireless Project website" class="project">
+                <div class="project">
+                <h2>Commotion Project Website</h2>
+                <p>Documentation, news, and downloads for the Commotion Wireless Project</p>
+                <p><a href="https://commotionwireless.net">https://commotionwireless.net</a></p>
+                <p class="roles">Project coordinator, project team member</p>
+                <p><strong>Contributions:</strong></p>
+                <ul>
+                    <li>Wrote original functional requirements and wireframe</li>
+                    <li>Managed contractors responsible for branding and implementation</li>
+                    <li>Participated in post-contract implementation review</li>
+                    <li>Assisted staff web developers in site overhaul and migration testing (Drupal 7 to Jekyll)</li>
+                    <li>Assisted staff web developers with regular content and site updates</li>
+                </ul>
+                </div>
+
+                <img src="images/commotion_logo_100x100.png" alt="Project header: Commotion Wireless Project router web UI theme" class="project">
+                <div class="project">
+                <h2>Commotion Firmware Web UI Theme Improvements</h2>
+                <p>Maintainability, size, and standards compliance improvements to Commotion's default router firmware theme, using the LuCI Model-View-Controller system</p>
+                <p><a href="https://github.com/opentechinstitute/luci-commotion/pull/396">https://github.com/opentechinstitute/luci-commotion/pull/396</a>, <a href="https://github.com/opentechinstitute/luci-commotion/commits/theme-optimization">https://github.com/opentechinstitute/luci-commotion/commits/theme-optimization</a></p>
+                <p class="roles">Developer, project coordinator, project team member</p>
+                <p><strong>Contributions:</strong></p>
+                <ul>
+                    <li>Separated Lua-based page logic from traditional web components for easier customization of Commotion's theme by external web developers</li>
+                    <li>Coordinated completion CSS optimization</li>
+                    <li>Completed CSS optimization and incorporated stylesheets into new theme structure</li>
+                </ul>
+                </div>
+
+
+          <!--<h4>Subheading</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
 
           <h4>Subheading</h4>
           <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
 
           <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>-->
         </div>
 
         <div class="col-lg-6">
-          <h4>Subheading</h4>
-          <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+                <img src="images/commotion_logo_100x100.png" alt="Project header: Commotion translation generator command line tool" class="project">
+                <div class="project">
+                <h2>Commotion Translation Generator (beta)</h2>
+                <p>Command-line tool that parses Commotion source code and generates new system language files, retaining any usable translations and discarding unused phrases</p>
+                <p><a href="https://github.com/opentechinstitute/commotion-translation-generator">https://github.com/opentechinstitute/commotion-translation-generator</a></p>
+                <p class="roles">Developer</p>
+                <p><strong>Contributions:</strong></p>
+                <ul>
+                    <li>Identified project need and proposed development roadmap</li>
+                    <li>Designed and developed tool in Perl</li>
+                    <li>Currently improving integration with translation workflow</li>
+                </ul>
+                </div>
 
-          <h4>Subheading</h4>
-          <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum.</p>
-
-          <h4>Subheading</h4>
-          <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                <img src="images/commotion_logo_100x100.png" alt="Project header: Commotion acceptance test" class="project">
+                <h2>Stack Protector Test</h2>
+                <p>Simple buffer overflow exploit for use during Commotion acceptance testing</p>
+                <p><a href="https://github.com/areynold/commotion-extra-feed/tree/cleanup/packages/ssp_test">https://github.com/areynold/commotion-extra-feed/tree/cleanup/packages/ssp_test</a><br> <a href="https://wiki.commotionwireless.net/doku.php/development_resources/router/compiling_packages_with_stack_smashing_protection">https://wiki.commotionwireless.net/doku.php/development_resources/router/compiling_packages_with_stack_smashing_protection</a></p>
+                <p class="roles">Developer, project coordinator</p>
+                <p><strong>Contributions:</strong></p>
+                <ul>
+                    <li>Coordinated code audit and penetration tests with contract security researchers</li>
+                    <li>Researched compile-time security improvements in response to audit findings</li>
+                    <li>Wrote simple exploit in C for use in GitHub pull request testing</li>
+                    <li>Discovered and resolved compatibility issue between SSP and default Commotion compiler options</li>
+                </ul>
         </div>
       </div>
-
-      <div class="footer">
+    </main>
+      <footer class="footer" role="footer">
         <p>&copy; Company 2014</p>
-      </div>
+      </footer>
 
     </div> <!-- /container -->
 
