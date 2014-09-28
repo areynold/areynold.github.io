@@ -30,6 +30,10 @@ h1 {
     word-spacing: 1px;
 }
 
+a.project {
+    text-decoration: none;
+}
+
 img.project {
     display: inline-block;
     border: 10px solid darkgray;
