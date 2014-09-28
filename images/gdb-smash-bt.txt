@@ -1,4 +1,4 @@
-*** stack smashing detected ***: /sandbox/smash terminated
+*** stack smashing detected ***: /ssp_test/smash terminated
 
 Program received signal SIGABRT, Aborted.
 0xb7fdd424 in __kernel_vsyscall ()
