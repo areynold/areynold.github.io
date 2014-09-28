@@ -52,3 +52,7 @@ div.project {
 .cobalt {
     background-color: #001b33;
 }
+
+footer a {
+    text-decoration: none;
+}
