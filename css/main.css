@@ -1,58 +1,47 @@
-/*#wrapper {
-    margin-left: auto;
-    margin-right: auto;
-    width: 85%;
-}*/
-
 h1 {
-    font-size: 64px;
-    font-weight: 300;
-    letter-spacing: -2px;
-    margin: 0.3em 0 0.1em;
+font-size:64px;
+font-weight:300;
+letter-spacing:-2px;
+margin:.3em 0 .1em;
 }
 
 .jumbotron {
-    margin-top: 2em;
-    min-height: 5em;
+margin-top:2em;
+min-height:5em;
 }
 
 .roles {
-    /* nicoledominguez.com */
-    color: #81817b;
-    display: block;
-    font-family: "adelle","Adelle",Georgia,serif;
-    font-size: 0.7em;
-    font-weight: 300;
-    margin: 0 0 5px;
-    position: relative;
-    text-transform: uppercase;
-    top: -5px;
-    word-spacing: 1px;
-}
-
-a.project {
-    text-decoration: none;
+color:#81817b;
+display:block;
+font-family:adelle,Adelle,Georgia,serif;
+font-size:.7em;
+font-weight:300;
+position:relative;
+text-transform:uppercase;
+top:-5px;
+word-spacing:1px;
+margin:0 0 5px;
 }
 
 img.project {
-    display: inline-block;
-    border: 3px solid darkgray;
-    border-radius: 100px;
-    box-shadow: 2px 2px 2px lightgray;
-    max-height: 100px;
-    min-width: 100px;
-    max-width: 100%;
+display:inline-block;
+border:3px solid #A9A9A9;
+border-radius:100px;
+box-shadow:2px 2px 2px lightgray;
+max-height:100px;
+min-width:100px;
+max-width:100%;
 }
 
 div.project {
-    display: inline-block;
-    padding-bottom: 2em;
+display:inline-block;
+padding-bottom:2em;
 }
 
 .cobalt {
-    background-color: #001b33;
+background-color:#001b33;
 }
 
-footer a {
-    text-decoration: none;
+a.project,footer a {
+text-decoration:none;
 }
