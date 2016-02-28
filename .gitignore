@@ -1,6 +1,14 @@
+# Config and IDE Files
 Gemfile*
 .kateproject
-Scratch/*
-_site
+
+# Package Directories
 node_modules/
 src/vendor/
+
+# Output Directories
+css/
+_site/
+
+# Misc
+Scratch/
