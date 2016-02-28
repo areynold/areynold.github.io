@@ -7,6 +7,8 @@
 // Core variables and mixins
 @import "base/variables";
 @import "base/colors";
+@import "base/h1";
+@import "base/footer";
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
 // Reset and dependencies
@@ -58,3 +60,6 @@
 
 // Custom modules
 @import "module/cobalt";
+@import "module/project";
+@import "module/roles";
+@import "module/jumbotron";
