@@ -2,3 +2,4 @@ Gemfile*
 .kateproject
 Scratch/*
 _site
+node_modules/
