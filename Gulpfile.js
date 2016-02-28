@@ -5,6 +5,8 @@ var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 var cssnano = require('gulp-cssnano');
 var rename = require('gulp-rename');
+var imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant');
 
 // Configs
 var config = {
@@ -13,7 +15,9 @@ var config = {
     'cssDir': 'css/',
     'autoprefixerOptions': {
         browsers: ['last 2 versions', '> 5%']
-    }
+    },
+    'imageSrc': 'src/images/*',
+    'imageDest': 'images/'
 }
 
 // Tasks
@@ -28,6 +32,17 @@ gulp.task('compileSass', function() {
         .pipe(gulp.dest(config.cssDir));
 });
 
+gulp.task('minifyImages', function() {
+    return gulp.src(config.imageSrc)
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()]
+        }))
+        .pipe(gulp.dest(config.imageDest));
+});
+
 gulp.task('default', function() {
     gulp.watch(config.sassFiles, [compileSass]);
+    gulp.watch(config.imageSrc, [minifyImages]);
 });
