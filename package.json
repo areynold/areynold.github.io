@@ -1,0 +1,18 @@
+{
+  "name": "areynold.github.io",
+  "version": "0.1.0",
+  "description": "GitHub pages",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/areynold/areynold.github.io.git"
+  },
+  "author": "andrew@chambana.net",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/areynold/areynold.github.io/issues"
+  }
+}
