@@ -17,10 +17,6 @@ var config = {
 }
 
 // Tasks
-gulp.task('hello', function() {
-    console.log('hello world');
-});
-
 gulp.task('compileSass', function() {
     return gulp.src(config.sassMain)
         .pipe(sourcemaps.init())
