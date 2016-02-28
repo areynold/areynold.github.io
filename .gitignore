@@ -3,3 +3,4 @@ Gemfile*
 Scratch/*
 _site
 node_modules/
+src/vendor/

@@ -1,0 +1,22 @@
+{
+  "name": "areynold.github.io",
+  "description": "GitHub pages",
+  "main": "index.html",
+  "authors": [
+    "andrew@chambana.net"
+  ],
+  "license": "MIT",
+  "homepage": "https://areynold.github.io",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#^3.3.6"
+  }
+}
