@@ -6,6 +6,7 @@
 
 // Core variables and mixins
 @import "base/variables";
+@import "base/colors";
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
 // Reset and dependencies
@@ -54,3 +55,6 @@
 // Utility classes
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+// Custom modules
+@import "module/cobalt";
