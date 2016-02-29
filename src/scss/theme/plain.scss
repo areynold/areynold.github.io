@@ -1,3 +1,14 @@
+footer a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: $font-size-huge;
+    font-weight: $headings-font-weight * 0.6;
+    letter-spacing:-2px;
+    margin:.3em 0 .1em;
+}
+
 header {
     background-color: $gray-lighter;
     min-height: 5em;
