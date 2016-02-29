@@ -4,6 +4,7 @@ var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
 var autoprefixer = require('gulp-autoprefixer');
 var cssnano = require('gulp-cssnano');
+var uncss = require('gulp-uncss');
 var rename = require('gulp-rename');
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
@@ -26,6 +27,7 @@ gulp.task('compileSass', function() {
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(autoprefixer(config.autoprefixerOptions.browsers))
+        .pipe(uncss({ html: ['index.html'] }))
         .pipe(cssnano())
         .pipe(sourcemaps.write())
         .pipe(rename({ extname: '.min.css' }))
