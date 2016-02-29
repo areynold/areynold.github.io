@@ -14,16 +14,16 @@
 // Reset and dependencies
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/print";
-@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
+//@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
 
 // Core CSS
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/type";
-@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/code";
+//@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/code";
 @import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/grid";
-@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/tables";
-@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/forms";
-@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+//@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/tables";
+//@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+//@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
 
 // Components
 //@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
@@ -37,7 +37,7 @@
 //@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/pager";
 //@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/labels";
 //@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/badges";
-//@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
+@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
 //@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
 //@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/alerts";
 //@import "../vendor/bootstrap-sass/assets/stylesheets/bootstrap/progress-bars";
@@ -62,4 +62,6 @@
 @import "module/cobalt";
 @import "module/project";
 @import "module/roles";
-@import "module/jumbotron";
+
+// Themes
+@import "theme/plain";
