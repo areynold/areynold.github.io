@@ -9,9 +9,9 @@ div.project {
 
 img.project {
     display:inline-block;
-    border:3px solid #A9A9A9;
+    border:3px solid $gray-border;
     border-radius:100px;
-    box-shadow:2px 2px 2px lightgray;
+    box-shadow:2px 2px 2px $gray-shadow;
     max-height:100px;
     min-width:100px;
     max-width:100%;

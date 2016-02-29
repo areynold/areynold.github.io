@@ -1,12 +1,12 @@
 .roles {
-  color:#81817b;
-  display:block;
-  font-family:adelle,Adelle,Georgia,serif;
-  font-size:.7em;
-  font-weight:300;
-  position:relative;
-  text-transform:uppercase;
-  top:-5px;
-  word-spacing:1px;
-  margin:0 0 5px;
+    color:$gray-light;
+    display:block;
+    font-family:adelle,Adelle,Georgia,serif;
+    font-size:.7em;
+    font-weight:$headings-font-weight * 0.6;
+    position:relative;
+    text-transform:uppercase;
+    top:-5px;
+    word-spacing:1px;
+    margin:0 0 5px;
 }
